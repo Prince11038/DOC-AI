@@ -1,9 +1,11 @@
 body{
     background-color: #077389;
-    padding: 20px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .navbar{
+    margin: 20px;
     display: grid;
     gap: 190px;
     align-items: center;
@@ -17,6 +19,9 @@ body{
 
 .details{
     display: flex;
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 10px;
 }
 .logo{
     display: flex;
@@ -95,8 +100,82 @@ body{
     background: linear-gradient(98deg, #6048F6 0%, #D11DFA 53.96%, #E72F87 100%);
 }
 
+.mainbanner{
+    padding: 0%;
+    margin: 0%
+    position: relative;
+}
+
 .mainbanner img{
-    
+    padding-top: 50px;    
+    width: 100vw;
+    height: auto;
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+}
+
+.bannercont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F2F2F2;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 62.157px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.23%; /* 86.542px */
+    letter-spacing: 1.243px;
+}
+
+.search-form{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input{
+    border: 2px solid black;
+    justify-content: space-between;
+    padding: 11px ;
+    align-items: center;
+    border-radius: 51.543px;
+    background: #38C4AA;
+    height: 36px;
+    width: 700px;
+
+}
+.search-input::placeholder{
+    color: #00365A;
+    font-family: Poppins;
+    font-size: 24.328px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.search-button{
+    display: flex;
+    width: 57.763px;
+    height: 57.763px;
+    padding: 13.33px ;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+    border-radius: 100px;
+    background: #FFF;
+}
+
+.search-button img.icon {
+    width: 40px; /* Adjust width */
+    height: 40px; /* Adjust height */
+    position: relative;
+    top: -23px;
 }
 
 .department{
