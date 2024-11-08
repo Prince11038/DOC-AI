@@ -95,6 +95,10 @@ body{
     background: linear-gradient(98deg, #6048F6 0%, #D11DFA 53.96%, #E72F87 100%);
 }
 
+.mainbanner img{
+    
+}
+
 .department{
     padding: 50px;
 }
@@ -303,30 +307,4 @@ body{
     background: #FFF;
 }
 
-.signtext{
-    padding-top: 70px;
-    color: #F2F2F2;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 45.672px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 139.23%; /* 63.59px */
-    letter-spacing: 0.913px;
-}
-.signfeat{
-    display: flex;
-}
 
-.dropimg{
-
-}
-.text1{
-    width: 653px;
-    color: #FFF;
-    font-family: Poppins;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
