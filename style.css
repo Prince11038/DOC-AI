@@ -17,6 +17,16 @@ body{
     background: #00355A;
 }
 
+a{
+    color: #FFF;
+    text-decoration: none;
+    text
+}
+
+a:hover{
+    color:red;
+}
+
 .details{
     display: flex;
     background-color: #FFF;
