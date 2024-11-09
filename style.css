@@ -388,6 +388,38 @@ body{
     background: #FFF;
 }
 
+.docname{
+    margin: 15px 45px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #0B99A7;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.docdesc{
+    margin: auto;
+    padding: 15px 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    background: #2AAEBE;
+    width: 353px;
+    height: 131px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 
 .medtext{
     padding: 80px 10vw;
