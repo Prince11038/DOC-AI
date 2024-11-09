@@ -107,7 +107,7 @@ body{
 }
 
 .mainbanner img{
-    padding-top: 50px;    
+    padding-top: 30px;    
     width: 100vw;
     height: auto;
     object-fit: cover; /* Ensures the image covers the area without stretching */
@@ -175,7 +175,7 @@ body{
     width: 40px; /* Adjust width */
     height: 40px; /* Adjust height */
     position: relative;
-    top: -23px;
+    top: -16px;
 }
 
 .department{
@@ -389,3 +389,84 @@ body{
 }
 
 
+.medtext{
+    padding: 80px 10vw;
+    color: #F2F2F2;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 139.23%; /* 63.59px */
+    letter-spacing: 0.913px;
+}
+
+.meddetails{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.medicon{
+    width: 300px;
+    height: 450px;
+    padding-top: 40px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img.medicon{
+    width: 345.418px;
+    height: 297.303px;
+    flex-shrink: 0;
+}
+
+.medtext1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.medtext2{
+    color: #FFF;
+    text-align: center;
+    font-family: Kanit;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+iframe{
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 20px;
+    background: #084B78;
+    margin-bottom: 20px;
+    margin: 20px;
+}
+
+.footer-text{
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
