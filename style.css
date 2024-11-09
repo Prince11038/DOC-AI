@@ -101,9 +101,9 @@ body{
 }
 
 .mainbanner{
+    position: relative;
     padding: 0%;
     margin: 0%
-    position: relative;
 }
 
 .mainbanner img{
