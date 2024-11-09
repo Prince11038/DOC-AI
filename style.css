@@ -271,7 +271,7 @@ body{
     background: #FFF;
 }
 
-.orthopaedics{
+.dietplan{
     display: flex;
     gap: 15px;
     flex-direction: column;
@@ -283,7 +283,7 @@ body{
     background: #FFF;
 }
 
-.oncology{
+.checkup{
     display: flex;
     gap: 15px;
     flex-direction: column;
